@@ -85,6 +85,9 @@ body { background-color: #E9E9E9; }
     color: var(--secondary-color);
 }
 
+#btn-appear{ display: block; }
+#btn-appear-2{ display: none; }
+
 /* menu config */
 .menu-container{
     display: flex;
@@ -164,6 +167,38 @@ body { background-color: #E9E9E9; }
     background-color: #000000;
     opacity: 0.4;
     text-align: right;
+    transition: 2s;
 }
 
 /* end menu config */
+
+/* HEADER - Tablet */
+@media screen and (min-width: 780px){
+    .container-header{
+        display: flex;
+    }
+
+    .logo{ width: 9.375rem; } /* 150px */
+
+    .name-title h1, .name-title h3{
+        font-size: 2.375rem; /* 38px */
+     }
+
+     #btn-appear{ display: none; }
+     #btn-appear-2{ display: block; }
+
+     /* hamburger button */
+    .btn-menu{
+        background-color: var(--site-bg-color);
+    }
+
+    .nav-menu ul {
+        margin-top: -8rem;
+        margin-left: -58%;
+    }
+
+    .malha { transition: 1.5s; }
+
+    .menu-closed{ margin-left: -700%;}
+    .menu-opened{ margin-left: -69%;}
+}
