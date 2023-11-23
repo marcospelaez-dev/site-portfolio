@@ -37,6 +37,7 @@
 body { background-color: #E9E9E9; }
 
 .general-container{
+    max-width: 1440px;
     margin: 5px auto;
     background-color: var(--site-bg-color);
 }
@@ -201,4 +202,84 @@ body { background-color: #E9E9E9; }
 
     .menu-closed{ margin-left: -700%;}
     .menu-opened{ margin-left: -69%;}
+
+    .name-title h1, .name-title h3{
+        font-size: 2.375rem; /* 38px */
+     }
 }
+
+/* HEADER - Desktop */
+@media screen and (min-width: 1200px){
+
+    .menu-closed{ margin: 0; }
+    .menu-opened{ margin: 0; }
+
+    #btn-appear { display: none; }
+    #btn-appear-2{ display: none; }
+    .nav-menu ul img{ display: none; }
+    .nav-menu ul hr { display: none; }
+    .malha { position: relative; display: none !important; }
+
+    .container-header {
+        width: 0;
+    }
+     
+    .container-header div{
+        width: auto;
+        margin-left: 10px;
+        margin-right: 50px;
+    }
+
+    .nav-menu ul {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: var(--site-bg-color);
+        position: static;
+        list-style: none;
+        display: flex;
+     }
+     .nav-menu ul li {
+        width: 40%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        background-color: var(--site-bg-color);
+    }
+
+    .nav-menu ul li a{
+        list-style: none;
+    }
+
+    .nav-menu ul li{
+        padding-right: 60px;
+    }
+
+    .name-title h3{
+        width: 243px;
+    }
+
+    .sobre-eu{
+        display: block;
+        width: 126px;
+    }
+
+    .link-menu:hover{
+        color: var(--primary-color);
+        font-size: 1.5rem; /* 20px */
+     }
+
+}
+
+/* HEADER desktop Ajuste */
+@media screen and (min-width: 1300px){
+    .container-header div{
+        margin-right: 80px
+     }
+}
+
+@media screen and (min-width: 1440px){
+    .container-header div{
+       margin-right: 150px
+    }
+ }
