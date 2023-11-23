@@ -264,6 +264,8 @@ body { background-color: #E9E9E9; }
         width: 126px;
     }
 
+    .link-menu{ color: var(--complementary-color-1); }
+
     .link-menu:hover{
         color: var(--primary-color);
         font-size: 1.5rem; /* 20px */
