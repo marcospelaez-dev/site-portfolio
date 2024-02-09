@@ -385,4 +385,86 @@ body { background-color: #E9E9E9; }
      }
  }
 
- 
+ /* Sobre mim - section - DESKTOP */
+ @media screen and (min-width: 960px){
+    .about{display: none;}
+    .about2{display: flex; flex-direction: column;}
+
+    .div-line{
+        width: 90%;
+        margin: 0 auto;
+     }
+
+     .apresentation-title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto 50px auto;
+     }
+
+     .apresentation-title h3{
+        color: #FFC700;
+        font-family: Audiowide;
+        font-size: 80px;
+        font-weight: 400;
+        align-self: start;
+        margin: 20px;
+     }
+
+     .foto-perfil{
+        width: 12.5rem; /* 200px */
+     }
+
+     .photo-apresentation h5{
+        color: #E88D00;
+        font-family: Audiowide;
+        font-size: 40px;
+        font-weight: 400;
+     }
+     .apresentation-title h4{
+        color: #1998FF;
+        font-family: Audiowide;
+        font-size: 40px;
+        font-weight: 400;
+        align-self: start;
+        margin-top: 20px;
+        text-align: right;
+     }
+     .apresentation-description{
+        text-align: center;
+     }
+     .about-description{
+        font-size: 30px;
+        margin-bottom: 30px;
+     }
+
+     .about-button{
+        width: 400px;
+     }
+ }
+
+ /* Sobre mim - section - DESKTOP Adjustment */
+ @media screen and (min-width: 1200px){
+    .apresentation-title h4{
+        text-align: center;
+     }
+ }
+
+ @media screen and (min-width: 1224px){
+    .apresentation-title h3{
+        font-size: 90px;
+     }
+     .apresentation-title h4{
+        font-size: 50px;
+     }
+     .photo-apresentation h5{
+        font-size: 50px;
+     }
+     .about-description{
+        font-size: 40px;
+     }
+     .about-button{
+        width: 450px;
+     }
+ }
