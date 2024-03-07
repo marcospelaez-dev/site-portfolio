@@ -1,46 +1,4 @@
-/*
-* Site Portfolio Marcos Pelaez Web Design
-* Autor: Marcos Antonio Pelaez de Sousa
-* Data: 19/10/2023
-*/
 
-/* Geral Config */
-
-/* Resset CSS */
-* {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    vertical-align: baseline;
-    box-sizing: border-box;
-}
-
-/* Fonts - Audiowid / Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-/* Color palette */
-:root {
-    --site-bg-color: #030081;
-    --primary-color: #1998FF;
-    --secondary-color: #007FE7;
-    --tertiary-color: #00569C;
-    --complementary-color-1: #E88D00;
-    --complementary-color-2: #9C5F00;
-    --btn-text-color: #FFC700;
-}
-/* End Geral Config */
-
-/* Website development */
-
-/* Body and general div - Config */
-body { background-color: #E9E9E9; }
-
-.general-container{
-    max-width: 1440px;
-    margin: 5px auto;
-    background-color: var(--site-bg-color);
-}
 
 /* HEADER */
 .container-header{
@@ -173,119 +131,6 @@ body { background-color: #E9E9E9; }
 
 /* end menu config */
 
-/* HEADER - Tablet */
-@media screen and (min-width: 780px){
-    .container-header{
-        display: flex;
-    }
-
-    .logo{ width: 9.375rem; } /* 150px */
-
-    .name-title h1, .name-title h3{
-        font-size: 2.375rem; /* 38px */
-     }
-
-     #btn-appear{ display: none; }
-     #btn-appear-2{ display: block; }
-
-     /* hamburger button */
-    .btn-menu{
-        background-color: var(--site-bg-color);
-    }
-
-    .nav-menu ul {
-        margin-top: -8rem;
-        margin-left: -58%;
-    }
-
-    .malha { transition: 1.5s; }
-
-    .menu-closed{ margin-left: -700%;}
-    .menu-opened{ margin-left: -69%;}
-
-    .name-title h1, .name-title h3{
-        font-size: 2.375rem; /* 38px */
-     }
-}
-
-/* HEADER - Desktop */
-@media screen and (min-width: 1200px){
-
-    .menu-closed{ margin: 0; }
-    .menu-opened{ margin: 0; }
-
-    #btn-appear { display: none; }
-    #btn-appear-2{ display: none; }
-    .nav-menu ul img{ display: none; }
-    .nav-menu ul hr { display: none; }
-    .malha { position: relative; display: none !important; }
-
-    .container-header {
-        width: 0;
-    }
-     
-    .container-header div{
-        width: auto;
-        margin-left: 10px;
-        margin-right: 50px;
-    }
-
-    .nav-menu ul {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        background-color: var(--site-bg-color);
-        position: static;
-        list-style: none;
-        display: flex;
-     }
-     .nav-menu ul li {
-        width: 40%;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        background-color: var(--site-bg-color);
-    }
-
-    .nav-menu ul li a{
-        list-style: none;
-    }
-
-    .nav-menu ul li{
-        padding-right: 60px;
-    }
-
-    .name-title h3{
-        width: 243px;
-    }
-
-    .sobre-eu{
-        display: block;
-        width: 126px;
-    }
-
-    .link-menu{ color: var(--complementary-color-1); }
-
-    .link-menu:hover{
-        color: var(--primary-color);
-        font-size: 1.5rem; /* 20px */
-     }
-
-}
-
-/* HEADER desktop Ajuste */
-@media screen and (min-width: 1300px){
-    .container-header div{
-        margin-right: 80px
-     }
-}
-
-@media screen and (min-width: 1440px){
-    .container-header div{
-       margin-right: 150px
-    }
- }
-
  /* Sobre mim - section - MOBILE */
 
  .about {
@@ -298,6 +143,8 @@ body { background-color: #E9E9E9; }
     justify-content: center;
     align-items: center;
  }
+
+ .about2{display: none;}
 
  .foto-title {
     text-align: center;
@@ -341,130 +188,24 @@ body { background-color: #E9E9E9; }
     font-size: 22px;
  }
 
- /* Sobre mim - section - TABLET */
- @media screen and (min-width: 780px) {
-    .about {
-        width: 60%;
-        margin-top: 30px;
-     }
+ /* Skills Section */
 
-     .foto-title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-     }
+ .skills{height: 200px;}
 
-     .title-name {
-        font-size: 32px;
-     }
-  
-     .title-job {
-        font-size: 28px;
-     }
-
-     .foto-perfil {
-        margin-right: 30px;
-     }
-
-     .about-description {
-        font-size: 24px;
-        margin: 0;
-        font-weight: 400;
-     }
-
-     .about-button {
-        width: 60%;
-        font-size: 24px;
-        letter-spacing: 5px;
-        margin: 30px 0;
-     }
-
-     .div-line {
-        border: 1px solid var(--primary-color);
-     }
+ .div-line1 {
+    width: 30%;
+    margin-top: 1.25em; /*20px*/
  }
 
- /* Sobre mim - section - DESKTOP */
- @media screen and (min-width: 960px){
-    .about{display: none;}
-    .about2{display: flex; flex-direction: column;}
-
-    .div-line{
-        width: 90%;
-        margin: 0 auto;
-     }
-
-     .apresentation-title{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 80%;
-        margin: 0 auto 50px auto;
-     }
-
-     .apresentation-title h3{
-        color: #FFC700;
-        font-family: Audiowide;
-        font-size: 80px;
-        font-weight: 400;
-        align-self: start;
-        margin: 20px;
-     }
-
-     .foto-perfil{
-        width: 12.5rem; /* 200px */
-     }
-
-     .photo-apresentation h5{
-        color: #E88D00;
-        font-family: Audiowide;
-        font-size: 40px;
-        font-weight: 400;
-     }
-     .apresentation-title h4{
-        color: #1998FF;
-        font-family: Audiowide;
-        font-size: 40px;
-        font-weight: 400;
-        align-self: start;
-        margin-top: 20px;
-        text-align: right;
-     }
-     .apresentation-description{
-        text-align: center;
-     }
-     .about-description{
-        font-size: 30px;
-        margin-bottom: 30px;
-     }
-
-     .about-button{
-        width: 400px;
-     }
+ .div-line1, .div-line2 {
+    border: 1px solid var(--primary-color);
  }
 
- /* Sobre mim - section - DESKTOP Adjustment */
- @media screen and (min-width: 1200px){
-    .apresentation-title h4{
-        text-align: center;
-     }
- }
-
- @media screen and (min-width: 1224px){
-    .apresentation-title h3{
-        font-size: 90px;
-     }
-     .apresentation-title h4{
-        font-size: 50px;
-     }
-     .photo-apresentation h5{
-        font-size: 50px;
-     }
-     .about-description{
-        font-size: 40px;
-     }
-     .about-button{
-        width: 450px;
-     }
+ .skills h2 {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 1.25em;
+    font-weight: 100;
+    color: var(--complementary-color-1);
+    letter-spacing: 0.125em; /*2px*/
+    margin: 0.625em; /*10px*/
  }

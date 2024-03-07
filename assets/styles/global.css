@@ -1,0 +1,43 @@
+/*
+* Site Portfolio Marcos Pelaez Web Design
+* Autor: Marcos Antonio Pelaez de Sousa
+* Data: 19/10/2023
+*/
+
+/* Geral Config */
+
+/* Resset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* Fonts - Audiowid / Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Color palette */
+:root {
+    --site-bg-color: #030081;
+    --primary-color: #1998FF;
+    --secondary-color: #007FE7;
+    --tertiary-color: #00569C;
+    --complementary-color-1: #E88D00;
+    --complementary-color-2: #9C5F00;
+    --btn-text-color: #FFC700;
+}
+/* End Geral Config */
+
+/* Website development */
+
+/* Body and general div - Config */
+body { background-color: #E9E9E9; }
+
+.general-container{
+    max-width: 1440px;
+    margin: 5px auto;
+    background-color: var(--site-bg-color);
+}
