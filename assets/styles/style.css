@@ -199,7 +199,7 @@
     border: 1px solid var(--primary-color);
  }
 
- .skills h2 {
+ .skills h2, .contact-form h2 {
     font-family: 'Audiowide', sans-serif;
     font-size: 1.25em;
     font-weight: 100;
