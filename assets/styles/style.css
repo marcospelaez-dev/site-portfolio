@@ -190,8 +190,6 @@
 
  /* Skills Section */
 
- .skills{height: 200px;}
-
  .div-line1 {
     width: 30%;
     margin-top: 1.25em; /*20px*/
@@ -208,4 +206,47 @@
     color: var(--complementary-color-1);
     letter-spacing: 0.125em; /*2px*/
     margin: 0.625em; /*10px*/
+ }
+
+ .items-skills {
+    display: grid;
+    align-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0.375em; /*6px*/
+    margin-top: 0.625em; /*10px*/
+ }
+
+ .item-skill {
+    text-align: center;
+    margin-bottom: 30px;
+ }
+ 
+ .item-skill img {
+    width: 2.5em; /*40px*/
+    margin-bottom: 0.625em;
+ }
+
+ .item-skill h3, .item-skill h4 {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 0.75em; /*12px*/
+    font-weight: 400;
+    color: var(--btn-text-color);
+ }
+
+ .design-grafico {
+    padding-top: 1em; /*16px*/
+ }
+
+ /* Mobile adjustment skills section */
+
+ @media screen and (min-width: 500px) {
+
+    .item-skill img {
+        width: 3.2em; /*~50px*/
+     }
+     
+     .item-skill h3, .item-skill h4 {
+        font-size: 0.875em; /* 14px */
+     }
+
  }
