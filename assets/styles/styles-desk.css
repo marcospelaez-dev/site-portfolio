@@ -75,6 +75,13 @@
    .items-skills {
       margin-top: 1.25em; /*20px*/
    }
+
+   /* Contact form section */
+
+   .contact-form h2 {
+      text-align: center;
+      font-size: 2.5em; /* 40px */
+   }
 }
 
 /* HEADER - Desktop */

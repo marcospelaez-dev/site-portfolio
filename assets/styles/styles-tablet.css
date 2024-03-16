@@ -86,4 +86,19 @@
    .item-skill h3, .item-skill h4 {
       font-size: 1.25em; /* 20px */
    }
+   /* Contact form section */
+
+   .form-text {
+      width: 65%;
+  }
+}
+
+ /* Tablet adjustment contact form section */
+
+@media screen and (min-width: 700px) {
+
+   form input {
+       height: 3.125em; /* 50px */
+    }
+
 }
