@@ -84,6 +84,16 @@
    }
 }
 
+/* Contact form secton - btn submit adjustment */
+@media screen and (min-width: 1000px) {
+   .btn-submit {
+      height: 2.5em; /* 50px */
+      margin: 1.25em auto; /* 20px */
+      font-size: 1.87em; /* ~30px */
+   }
+}
+
+
 /* HEADER - Desktop */
 @media screen and (min-width: 1200px){
 
@@ -147,18 +157,23 @@
         font-size: 1.5rem; /* 20px */
      }
 
+     /* contact section button */
+     .btn-submit {
+        font-size: 2.19em; /* ~35px */
+     }
+
 }
 
 /* HEADER desktop Ajuste */
 @media screen and (min-width: 1300px){
     .container-header div{
-        margin-right: 80px
+        margin-right: 5em; /* 80px */
      }
 }
 
 @media screen and (min-width: 1440px){
     .container-header div{
-       margin-right: 150px
+       margin-right: 9.375em; /* 150px */
     }
  }
 

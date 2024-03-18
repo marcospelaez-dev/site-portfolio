@@ -41,3 +41,9 @@ body { background-color: #E9E9E9; }
     margin: 5px auto;
     background-color: var(--site-bg-color);
 }
+
+
+/* contact section button */
+.btn-submit {
+    max-width: 25em; /* 700px */
+}
