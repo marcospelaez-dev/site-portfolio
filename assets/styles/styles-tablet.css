@@ -91,6 +91,12 @@
    .form-text {
       width: 65%;
   }
+
+  /* Footer */
+
+  footer h3 {
+    font-size: 30px;
+  }
 }
 
  /* Tablet adjustment contact form section */

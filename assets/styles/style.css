@@ -317,3 +317,30 @@
 
  }
 
+
+ /* Footer */
+
+ footer {
+   border: 1px solid #000000;
+   background-color: var(--complementary-color-2);
+   border-radius: 8px;
+   padding: 5px;
+   text-align: center;
+ }
+
+ footer h3 {
+   color: var(--site-bg-color);
+   font-family: 'Audiowide', sans-serif;
+   font-size: 16px;
+   margin: 10px 0;
+ }
+
+ .social-media {
+   display: flex;
+   justify-content: space-between;
+   margin: 20px 40px;
+ }
+
+ .social-media img {
+   cursor: pointer;
+ }

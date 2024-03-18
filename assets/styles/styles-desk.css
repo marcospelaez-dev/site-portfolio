@@ -162,6 +162,15 @@
         font-size: 2.19em; /* ~35px */
      }
 
+     /* Footer */
+     footer h3 {
+      font-size: 40px;
+     }
+
+     .social-media img {
+       width: 70px;
+     }
+
 }
 
 /* HEADER desktop Ajuste */
