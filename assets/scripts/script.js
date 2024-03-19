@@ -1,4 +1,5 @@
 
+//Behavior menu open and close
 function menuAppear(){
     
     let navMenu = document.getElementById("menuMobile");
@@ -18,3 +19,5 @@ function menuAppear(){
     }
     
 }
+
+
