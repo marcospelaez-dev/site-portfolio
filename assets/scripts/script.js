@@ -20,4 +20,4 @@ function menuAppear(){
     
 }
 
-
+//Soft scroll contact
