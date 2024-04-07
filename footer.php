@@ -3,9 +3,6 @@
                 <h3>Pelaez - Web Design</h3>
             
                 <div class="social-media">
-                    <a href="https://www.youtube.com/channel/UCY-HNzfpK9DILKUSFbKmhPQ" target="_blank">
-                        <img src="./assets/img/youtube-icon.png" alt="youtube">
-                    </a>
 
                     <a href="https://www.facebook.com/webdesignmarcos/" target="_blank">
                         <img src="./assets/img/facebook-icon.png" alt="facebook">

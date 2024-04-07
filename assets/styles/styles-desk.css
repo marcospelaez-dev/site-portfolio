@@ -91,6 +91,10 @@
       margin: 1.25em auto; /* 20px */
       font-size: 1.87em; /* ~30px */
    }
+
+   .social-media img {
+      width: 60px;
+    }
 }
 
 
@@ -163,12 +167,13 @@
      }
 
      /* Footer */
-     footer h3 {
-      font-size: 40px;
+
+     footer{
+      padding: 0 150px;
      }
 
-     .social-media img {
-       width: 70px;
+     footer h3 {
+      font-size: 40px;
      }
 
 }
@@ -177,6 +182,10 @@
 @media screen and (min-width: 1300px){
     .container-header div{
         margin-right: 5em; /* 80px */
+     }
+
+     footer {
+      padding: 0 200px;
      }
 }
 
