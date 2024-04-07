@@ -6,7 +6,7 @@
         <!--Sobre mim (about) - section ***MOBILE AND TABLET***-->
        <section class="about"><!--Container section-->
            <div class="foto-title">
-               <img class="foto-perfil" src="assets/img/foto-site 1.png" alt="Foto Marcos Pelaez Web Design" />
+               <img class="foto-perfil" src="assets/img/foto-site1.png" alt="Foto Marcos Pelaez Web Design" />
                <div class="title-text">
                    <h2 class="title title-name">Marcos Pelaez</h2>
                    <h2 class="title title-job">Web Design</h2>
@@ -22,7 +22,7 @@
            <div class="apresentation-title">
                <h3>Eu Sou</h3>
                <div class="photo-apresentation">
-                   <img class="foto-perfil" src="assets/img/foto-site 1.png" alt="Foto Marcos Pelaez Web Designer" />
+                   <img class="foto-perfil" src="assets/img/foto-site1.png" alt="Foto Marcos Pelaez Web Designer" />
                    <h5>Web Designer</h5>
                </div>
                <h4>Marcos Pelaez</h4>
