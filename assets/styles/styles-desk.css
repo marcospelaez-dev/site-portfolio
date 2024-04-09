@@ -78,6 +78,10 @@
 
    /* Contact form section */
 
+   .contact-form {
+      margin-top: 20px;
+   }
+
    .contact-form h2 {
       text-align: center;
       font-size: 2.5em; /* 40px */

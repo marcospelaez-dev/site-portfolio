@@ -15,7 +15,10 @@
            </div>
            
            <p class="about-description">Desde 2002 fazendo arte! Gráfica e Web!</p>
-           <button class="about-button">SOBRE MIM!</button>
+           <a href="./aboutme.php">
+                <button class="about-button">SOBRE EU!</button>
+           </a>
+           
        </section><!--End Sobre mim (about) - section ***MOBILE AND TABLET***-->
 
        <section class="about2">
@@ -30,7 +33,9 @@
            <!-- Sobre mim (about2) - section ***only desktop*** -->
            <div class="apresentation-description"><!--Container section-->
                <p class="about-description">Desde 2002 fazendo arte! Gráfica e Web!</p>
-               <button class="about-button">SOBRE MIM!</button>
+               <a href="./aboutme.php">
+                <button class="about-button">SOBRE EU!</button>
+               </a>
            </div>
        </section>
        <!-- End Sobre mim (about2) - section ***only desktop*** -->

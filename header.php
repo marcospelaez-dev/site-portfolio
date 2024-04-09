@@ -14,7 +14,10 @@
     <div class="general-container">
         <header class="container-header">
             <div><!--Logo-->
-                <img src="assets/img/logo-fundo-alpha.png" alt="logotipo Pelaez Web Design" class="logo" />
+                <a href="./index.php">
+                    <img src="assets/img/logo-fundo-alpha.png" alt="logotipo Pelaez Web Design" class="logo" />
+                </a>
+                
             </div>
 
             <div class="name-title"><!--Name Title-->
@@ -34,8 +37,8 @@
                     <ul>
                         <img src="assets/img/Bt-fechar.png" alt="botão fechar menu" onclick="menuAppear()" />
                         <hr/>
-                        <li><a href="#" class="link-menu">Home</a></li>
-                        <li><a href="#" class="link-menu sobre-eu">Sobre Eu</a></li>
+                        <li><a href="./index.php" class="link-menu">Home</a></li>
+                        <li><a href="./aboutme.php" class="link-menu sobre-eu">Sobre Eu</a></li>
                         <li><a href="#" class="link-menu">Portfólio</a></li>
                         <li><a href="#contact" class="link-menu" id="scroll-soft" onclick="menuAppear()">Contato</a></li>
                     </ul>

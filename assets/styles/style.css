@@ -171,9 +171,9 @@ html {
  }
 
  .about-button{
-    width: 80%;
+    width: 100%;
     margin: 20px 0;
-    padding: 5px;
+    padding: 5px 50px;
     background-color: var(--primary-color);
     border: 0;
     border-radius: 20px;
@@ -349,6 +349,7 @@ html {
 
  /* ******ABOUT ME PAGE****** */
 
+ /* HEADER ABOUT */
  main header{
    display: flex;
    flex-direction: column;
@@ -373,4 +374,44 @@ html {
 
  .job-perfil {
    color: var(--primary-color);
+ }
+
+
+ /* ARTICLE RESUME */
+
+ .perfil-article { width: 80%; margin: 0 auto; }
+
+ .perfil-article h2 {
+   width: 60%;
+   font-family: 'Audiowide', sans-serif;
+   font-size: 24px;
+   font-weight: 200;
+   color: var(--complementary-color-1);
+   margin: 0 auto 20px auto;
+ }
+
+ .perfil-article p {
+   margin: 8px 0;
+   font-family: 'Roboto', sans-serif;
+   font-size: 15px;
+   line-height: 25px;
+   color: var(--btn-text-color);
+ }
+
+ .perfil-article p a {
+   font-size: 18px;
+   text-decoration: none;
+   color: var(--primary-color);
+   transition: all 1s;
+ }
+
+ .perfil-article p a:hover {
+   font-size: 19px;
+   color: var(--complementary-color-1);
+ }
+
+ .divider {
+   margin: 15px auto;
+   width: 80%;
+   border-color: var(--complementary-color-1);
  }

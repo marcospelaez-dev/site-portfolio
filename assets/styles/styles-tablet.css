@@ -67,10 +67,11 @@
     }
 
     .about-button {
-       width: 60%;
+       width: 100%;
        font-size: 24px;
        letter-spacing: 5px;
        margin: 30px 0;
+       padding: 30 50px;
     }
 
     .div-line {
@@ -100,6 +101,26 @@
 
  footer h3 {
    font-size: 30px;
+ }
+
+
+ /* ******ABOUT ME PAGE****** */
+
+ .div-line {
+  width: 90%;
+  margin: 0 auto;
+ }
+
+ .about-container {
+  margin-top: 20px;
+ }
+
+ .perfil-sobre {
+  width: 150px;
+ }
+
+ .title-perfil, .job-perfil {
+  font-size: 35px;
  }
 }
 
