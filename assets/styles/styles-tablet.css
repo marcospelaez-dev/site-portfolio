@@ -122,6 +122,18 @@
  .title-perfil, .job-perfil {
   font-size: 35px;
  }
+
+ .perfil-article h2 {
+  width: 30%;
+  }
+
+  .perfil-article p {
+     font-size: 18px;
+ }
+
+ .perfil-article p a {
+  font-size: 20px;
+ }
 }
 
 /* Tablet adjustment contact form section */

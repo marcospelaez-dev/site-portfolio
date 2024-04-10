@@ -76,6 +76,11 @@
       margin-top: 1.25em; /*20px*/
    }
 
+   /* ABOUT ME PAGE */
+   .perfil-article h2 {
+      font-size: 30px;
+   }
+
    /* Contact form section */
 
    .contact-form {
@@ -98,6 +103,10 @@
 
    .social-media img {
       width: 60px;
+    }
+
+    .perfil-article p {
+      margin: 15px 0;
     }
 }
 
@@ -163,6 +172,11 @@
     .link-menu:hover{
         color: var(--primary-color);
         font-size: 1.5rem; /* 20px */
+     }
+
+     /* contact form section */
+     .contact-form {
+      margin: 40px 0;
      }
 
      /* contact section button */
