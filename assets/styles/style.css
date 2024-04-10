@@ -239,20 +239,6 @@ html {
     padding-top: 1em; /*16px*/
  }
 
- /* Mobile adjustment skills section */
-
- @media screen and (min-width: 500px) {
-
-    .item-skill img {
-        width: 3.2em; /*~50px*/
-     }
-     
-     .item-skill h3, .item-skill h4 {
-        font-size: 0.875em; /* 14px */
-     }
-
- }
-
  /* Contact form section */
  .form-text {
     width: 80%;
@@ -304,21 +290,6 @@ html {
     border: 1px solid #ffffff;
     font-size: 22px;
  }
-
- /* Mobile adjustment contact form section */
-
- @media screen and (min-width: 500px) {
-
-    .form-text {
-        width: 70%;
-    }
-
-    form input {
-        height: 2.5em; /* 40px */
-     }
-
- }
-
 
  /* Footer */
 
@@ -383,12 +354,17 @@ html {
 
  .perfil-article h2 {
    width: 60%;
+ }
+
+ /* The same configuration about page and portfolio page */
+.perfil-article h2, .vision-portfolio h2 {
    font-family: 'Audiowide', sans-serif;
    font-size: 24px;
    font-weight: 200;
    color: var(--complementary-color-1);
    margin: 0 auto 20px auto;
- }
+}
+ /* --------------------------------------------------*/
 
  .perfil-article p {
    margin: 8px 0;
@@ -415,3 +391,40 @@ html {
    width: 80%;
    border-color: var(--complementary-color-1);
  }
+
+ /* PORTFOLIO PAGE */
+
+ .vision-portfolio h2 {
+   width: 35%;
+}
+
+/* Mobile adjustment */
+
+@media screen and (min-width: 500px) {
+
+   /* contact form */
+   .form-text {
+       width: 70%;
+   }
+
+   form input {
+       height: 2.5em; /* 40px */
+    }
+
+    /* skill section */
+
+    .item-skill img {
+      width: 3.2em; /*~50px*/
+   }
+   
+   .item-skill h3, .item-skill h4 {
+      font-size: 0.875em; /* 14px */
+   }
+
+   /* portfolio */
+   
+   .vision-portfolio h2 {
+      width: 25%;
+   }
+
+}

@@ -39,7 +39,7 @@
                         <hr/>
                         <li><a href="./index.php" class="link-menu">Home</a></li>
                         <li><a href="./aboutme.php" class="link-menu sobre-eu">Sobre Eu</a></li>
-                        <li><a href="#" class="link-menu">Portfólio</a></li>
+                        <li><a href="./portfolio.php" class="link-menu">Portfólio</a></li>
                         <li><a href="#contact" class="link-menu" id="scroll-soft" onclick="menuAppear()">Contato</a></li>
                     </ul>
                 </nav>

@@ -134,6 +134,13 @@
  .perfil-article p a {
   font-size: 20px;
  }
+
+ /* PORTFOLIO PAGE */
+
+ .vision-portfolio h2 {
+  width: 20%;
+  font-size: 30px;
+ }
 }
 
 /* Tablet adjustment contact form section */
