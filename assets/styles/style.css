@@ -394,9 +394,107 @@ html {
 
  /* PORTFOLIO PAGE */
 
- .vision-portfolio h2 {
+ .vision-portfolio h2 { 
    width: 35%;
 }
+
+.view-picture{
+   width: 90%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+}
+
+.view-picture a {
+   width: 40px;
+   height: 40px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 15px;
+   font-weight: bold;
+   text-decoration: none;
+   color: #000000;
+   border-radius: 50%;
+   background-color: var(--complementary-color-1);
+   align-self: end;
+   text-align: center;
+   padding-top: 12px;
+   margin-right: 20px;
+   transition: all 1s;
+}
+
+.view-picture a:hover {
+   background-color: var(--primary-color);
+   border: 1px solid #000000;
+   color: #ffffff;
+}
+
+.back-view {
+   width: 15.625em; /* 250px */
+   height: 185px;
+   background-color: var(--complementary-color-1);
+   margin-top: -25px;
+   margin-left: 30px;
+}
+
+.photo-view {
+   margin: -160px 0 0 60px;
+}
+
+.photo-view img {
+   width: 15.625em; /* 250px */
+}
+
+.view-text {
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+
+.view-text h3, .view-text p {
+   font-family: 'Roboto', sans-serif;
+   color: var(--btn-text-color);
+}
+
+.view-text h3 {
+   font-size: 20px;
+   font-weight: 400;
+   margin-bottom: 8px;
+}
+.view-text p {
+   font-size: 16px;
+}
+
+/* Adjustment Portfolio */
+@media screen and (min-width: 450px) {
+   .port-view {
+      width: 90%;
+      margin: 0 auto;
+   }
+}
+@media screen and (min-width: 500px) {
+   .port-view {
+      width: 80%;
+      margin: 0 auto;
+   }
+}
+@media screen and (min-width: 550px) {
+   .port-view {
+      width: 75%;
+      margin: 0 auto;
+   }
+}
+@media screen and (min-width: 600px) {
+   .port-view {
+      width: 100%
+      margin: 0 auto;
+   }
+   .back-view, .photo-view img {
+      width: 18.75em
+   }
+}
+
+
+/* End Adjustment Portfolio */
 
 /* Mobile adjustment */
 

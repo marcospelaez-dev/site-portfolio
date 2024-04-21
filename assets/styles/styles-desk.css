@@ -91,7 +91,21 @@
       text-align: center;
       font-size: 2.5em; /* 40px */
    }
-}
+
+   /* PORTFOLIO PAGE */
+   .container-view {
+      display: flex;
+      width: 90%;
+      margin: 0 auto;
+   }
+   .port-view {
+      flex-direction: column;
+   }
+   .view-picture a {
+      margin-right: 40px;
+   }
+
+} /* End 960px */
 
 /* Contact form secton - btn submit adjustment */
 @media screen and (min-width: 1000px) {
@@ -108,6 +122,23 @@
     .perfil-article p {
       margin: 15px 0;
     }
+
+    /* PORTFOLIO PAGE */
+    .view-picture a {
+      margin-right: 60px;
+   }
+   .back-view, .photo-view img {
+      width: 21.875em; /* 350px */
+   }
+   .view-picture a {
+      margin-right: 20px;
+   }
+}
+/* PORTFOLIO PAGE ADJUSTMENT */
+@media screen and (min-width: 1100px) {
+   .view-picture a {
+      margin-right: 50px;
+   }
 }
 
 
@@ -201,6 +232,10 @@
       font-size: 35px;
      }
 
+     .view-picture a {
+      margin-right: 100px;
+    }
+
 }
 
 /* HEADER desktop Ajuste */
@@ -212,6 +247,18 @@
      footer {
       padding: 0 200px;
      }
+
+     /* PORTFOLIO PAGE */
+     .back-view, .photo-view img {
+      width: 25em; /* 400px */
+   }
+
+      .view-text h3 {
+         font-size: 30px;
+      }
+      .view-text p {
+         font-size: 18px;
+      }
 }
 
 @media screen and (min-width: 1440px){
@@ -225,6 +272,15 @@
       width: 15%;
       font-size: 40px;
     }
+
+    .view-picture a {
+      margin-right: 160px;
+    }
+
+    .view-text h3, .view-text p {
+      margin: 0 80px 10px 0;
+    }
+
  }
 
  

@@ -97,7 +97,7 @@
 
  footer {
   padding: 0 6.25em;
-}
+  }
 
  footer h3 {
    font-size: 30px;
@@ -111,7 +111,7 @@
   margin: 0 auto;
  }
 
- .about-container {
+ .about-container, .portfolio-container {
   margin-top: 20px;
  }
 
@@ -136,12 +136,35 @@
  }
 
  /* PORTFOLIO PAGE */
-
+ .vision-portfolio, .port-view, .view-picture, .view-text{
+   width: 100%;
+  }
  .vision-portfolio h2 {
   width: 20%;
   font-size: 30px;
  }
+
+ .port-view {
+  display: flex;
+ }
+ .view-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .view-picture {
+  margin: 15px;
+ }
+ .view-picture a {
+  margin: 0;
+ }
 }
+
+
+
+
 
 /* Tablet adjustment contact form section */
 
