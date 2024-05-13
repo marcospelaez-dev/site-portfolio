@@ -1,5 +1,5 @@
 
-<?php require_once('./header.php') ?>
+<?php require_once('./header.php'); ?>
 
 <div class="div-line"></div>
         
@@ -74,6 +74,6 @@
        </section>
         <!-- End Skills (habilidades) section -->
 
-<?php require_once('./contato.php') ?>
+<?php require_once('./contato.php'); ?>
 
-<?php require_once('./footer.php') ?>
+<?php require_once('./footer.php'); ?>
